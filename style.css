@@ -30,25 +30,8 @@ header {
     text-decoration: none;
     color: #f2f2f2;
   }
-  .nav-link {
-    animation: color-change 7s infinite;
-  }
-  @keyframes color-change {
-    0% {
-      color: #f2f2f2;
-    }
-    25% {
-      color: #008cffc4;
-    }
-    50% {
-      color: #759eeb;
-    }
-    75% {
-      color: #08d4db;
-    }
-    100% {
-      color: #4decec;
-    }
+  .nav-item a:hover {
+    color: red;
   }
   .section-title {
     font-size: 22px;
